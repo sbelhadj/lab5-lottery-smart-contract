@@ -1,1 +1,27 @@
+{
+  "name": "lab5-lottery-smart-contract",
+  "version": "1.0.0",
+  "description": "Projet de Smart Contract Ethereum pour une Lottery déployée sur Sepolia Testnet",
+  "main": "scripts/interact.js",
+  "scripts": {
+    "start": "node scripts/interact.js",
+    "join": "node scripts/interact.js joinLottery",
+    "pick-winner": "node scripts/interact.js pickWinner"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "web3": "^1.10.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Ethereum",
+    "Solidity",
+    "Lottery",
+    "Smart Contract",
+    "Web3.js",
+    "Sepolia"
+  ],
+  "author": "Sami BELHADJ",
+  "license": "MIT"
+}
 
