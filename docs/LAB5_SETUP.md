@@ -28,7 +28,7 @@ sudo apt update && sudo apt install -y nodejs npm
 npm install -g web3 dotenv
 ```
 
-## 🔹 Configurer Metamask avec Sepolia
+## 🔹 **Configurer Metamask avec Sepolia**
 1️⃣ Ouvrir Metamask → Aller dans Paramètres > Réseaux > Ajouter un Réseau
 
 2️⃣ Entrer les informations suivantes :
@@ -41,7 +41,7 @@ npm install -g web3 dotenv
 3️⃣ Ajouter des ETH Sepolia via un Faucet :
 🔗 Alchemy Sepolia Faucet
 
-## 📜 Écrire le Smart Contract
+## 📜 **Écrire le Smart Contract**
 1️⃣ Ouvrir Remix IDE
 🔗 Aller sur Remix Ethereum
 Créer un nouveau fichier Lottery.sol
@@ -95,14 +95,14 @@ contract Lottery {
 }
 ```
 
-## 🔨 Compiler le Smart Contract
+## 🔨 **Compiler le Smart Contract**
 1️⃣ Aller dans l’onglet "Solidity Compiler" sur Remix
 2️⃣ Sélectionner la version 0.8.20
 3️⃣ Cliquer sur Compile Lottery.sol ✅
 
 ✅ Si la compilation réussit, vous êtes prêt à déployer le contrat !
 
-## Déployer le Contrat sur Sepolia
+## **Déployer le Contrat sur Sepolia**
 1️⃣ Aller dans l’onglet Deploy & Run Transactions
 2️⃣ Sélectionner Injected Web3 (Connecté à Metamask)
 3️⃣ Vérifier que Sepolia Testnet est bien sélectionné
@@ -111,7 +111,7 @@ contract Lottery {
 📌 Vérifier le contrat sur Sepolia Explorer :
 🔗 Sepolia Etherscan
 
-## 🖥️ Interagir avec le Smart Contract via Web3.js
+## 🖥️ **Interagir avec le Smart Contract via Web3.js**
 1️⃣ Installer les dépendances dans votre projet local
 
 ```bash
@@ -174,7 +174,7 @@ async function pickWinner() {
 joinLottery();
 ```
 
-## ✅ Test et Vérification
+## ✅ **Test et Vérification**
 ✔️ Joindre la Lottery
 
 ```bash
@@ -189,11 +189,11 @@ node scripts/interact.js pickWinner
 
 📌 Vérifier l'historique des transactions sur Sepolia Etherscan
 
-## 🎯 Félicitations !
+## 🎯 **Félicitations !**
 Vous avez écrit, déployé et interagi avec un Smart Contract de Lottery sur Ethereum !
 🔗 N’hésitez pas à modifier le contrat pour ajouter plus de fonctionnalités !
 
-## 📚 Ressources Supplémentaires
+## 📚 **Ressources Supplémentaires**
 📖 Solidity Docs
 📖 Ethereum Smart Contract Security Best Practices
 🛠️ Web3.js Documentation
