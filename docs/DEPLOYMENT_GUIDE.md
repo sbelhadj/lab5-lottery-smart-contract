@@ -1,4 +1,4 @@
-# 🚀 Guide de Déploiement du Smart Contract de Lottery sur Sepolia  
+# Guide de Déploiement du Smart Contract de Lottery sur Sepolia  
 
 ## 📌 Étape 1 : Configurer Metamask  
 1. Installer [Metamask](https://metamask.io/)  
